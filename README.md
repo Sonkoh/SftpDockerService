@@ -2,8 +2,8 @@
 SftpDockerService es un servicio con el que puedes desplegar usuarios SFTP simplemente ejecutando un script, `./script/add_user.sh {username} {password} {storage}`
 
 ## Instrucciones
-Coloca el servicio en la ubicación `/root/service_sftp/`
-Inicia el docker-compose:
+- Coloca el servicio en la ubicación `/root/service_sftp/`
+- Inicia el docker-compose:
 ```docker-compose up -d --build```
 
 ## Scripts
