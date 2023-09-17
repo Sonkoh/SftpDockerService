@@ -1,0 +1,11 @@
+version: '3'
+services:
+  sftp:
+    container_name: service_sftp
+    build:
+        context: .
+    volumes:
+        - ./files:/home
+        - ./users.conf:/etc/sftp/users.conf:ro
+    ports:
+        - "2222:22"
